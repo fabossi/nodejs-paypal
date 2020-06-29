@@ -1,0 +1,27 @@
+body {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+
+.container {
+    display        : flex;
+    justify-content: space-around;
+    align-items    : center;
+    flex-direction : column;
+    height         : 50%;
+    width          : 100%;
+}
+
+
+.order-cancelled {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    height         : 120px;
+    width          : 50%;
+    border-radius  : .4rem;
+    border         : .1px solid rgba(0, 0, 0, 0.185);
+    letter-spacing : .3rem;
+}

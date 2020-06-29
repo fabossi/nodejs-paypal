@@ -1,0 +1,36 @@
+html {
+    display          : flex;
+    justify-content  : center;
+    align-items      : center;
+    flex-direction   : column;
+    background-image : url('../fundo.png');
+    background-repeat: no-repeat;
+    background-size  : cover;
+}
+
+.main {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-evenly;
+    align-items    : center;
+    height         : 300px;
+    padding        : 40px 40px;
+    border-radius  : 1rem;
+    position       : relative;
+    top            : 30%;
+}
+
+h1 {
+    color: #000000bd;
+}
+
+h2 {
+    padding         : 10px 10px 10px;
+    border-radius   : .5rem;
+    background-color: #000000db;
+    color           : #ffffffe6;
+}
+
+#dolar {
+    color: rgba(2, 92, 2, 0.87);
+}
